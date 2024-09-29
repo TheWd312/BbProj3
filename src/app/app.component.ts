@@ -15,7 +15,7 @@ export class AppComponent {
       name: 'Rahul Roy',
       photo: '/assets/s1Winner.webp',
       InstagramProfileLink: 'https://www.instagram.com/officialrahulroy/?hl=en',
-      FacebookProfileLink: 'https://www.facebook.com/rahulroy.official',
+      FacebookProfileLink: 'https://www.facebook.com/rahulroyofficial/',
       season: 1,
       year: 2007,
       about: 'Model and actor, famous for 90s films like Aashiqui, Junoon and Gumrah.',
@@ -33,7 +33,7 @@ export class AppComponent {
       name: 'Ashutosh Kaushik',
       photo: '/assets/s2winner.webp',
       InstagramProfileLink: 'https://www.instagram.com/iamashutoshkaushik/?hl=en',
-      facebookProfileLink: 'https://www.facebook.com/iamashutoshkaushik',
+      facebookProfileLink: 'https://www.facebook.com/ashutoshkaushikofficial/',
       season: 2,
       year: 2008,
       about: 'Won MTV Hero Honda Roadies 5.0 in 2007 before winning Bigg Boss.',
@@ -51,7 +51,7 @@ export class AppComponent {
       name: 'Vindu Dara Singh',
        photo: '/assets/s3Winner.webp',
       InstagramProfileLink: 'https://www.instagram.com/vindusingh/?hl=en',
-      facebookProfileLink: 'https://www.facebook.com/vindusingh.official',
+      facebookProfileLink: 'https://www.facebook.com/vindusingh/',
       season: 3,
       year: 2009,
       about: 'Famous for playing Hanuman in Jai Veer Hanuman.',
@@ -69,7 +69,7 @@ export class AppComponent {
       name: 'Shweta Tiwari',
       photo: '/assets/s4winner.webp',
       InstagramProfileLink: 'https://www.instagram.com/shweta.tiwari/?hl=en',
-      facebookProfileLink: 'https://www.facebook.com/shweta.tiwari.official',
+      facebookProfileLink: 'https://www.facebook.com/ShwetaTiwariOfficial/',
       season: 4,
       year: 2011,
       about: 'Well known for playing Prerna in Kasautii Zindagii Kay.',
@@ -87,7 +87,7 @@ export class AppComponent {
       name: 'Juhi Parmar',
        photo: '/assets/s5.jpg',
       InstagramProfileLink: 'https://www.instagram.com/juhiparmar/?hl=en',
-      facebookProfileLink: 'https://www.facebook.com/juhiparmar.official',
+      facebookProfileLink: 'https://www.facebook.com/JuhiParmarOfficial/',
       season: 5,
       year: 2012,
       about: 'Known for Kumkum – Ek Pyara Sa Bandhan fame.',
@@ -105,7 +105,7 @@ export class AppComponent {
       name: 'Urvashi Dholakia',
        photo: '/assets/s6.jpg',
       InstagramProfileLink: 'https://www.instagram.com/urvashidholakia/',
-      facebookProfileLink: 'https://www.facebook.com/urvashidholakiaofficial',
+      facebookProfileLink: 'https://www.facebook.com/UrvashiDholakiaOfficial/',
       season: 6,
       year: 2013,
       about: 'The iconic Komolika from television.',
@@ -123,7 +123,7 @@ export class AppComponent {
       name: 'Gauahar Khan',
        photo: '/assets/s7.jpg',
       InstagramProfileLink: 'https://www.instagram.com/gauaharkhan/?hl=en',
-      facebookProfileLink: 'https://www.facebook.com/gauaharkhanofficial',
+      facebookProfileLink: 'https://www.fhttps://www.facebook.com/GauaharKhanOfficial/',
       season: 7,
       year: 2013,
       about: 'Started career as a model, participated in Femina Miss India 2002.',
@@ -141,7 +141,7 @@ export class AppComponent {
       name: 'Gautam Gulati',
       photo: '/assets/s8.jpg', 
       InstagramProfileLink: 'https://www.instagram.com/welcometogauthamcity/',
-      facebookProfileLink: 'https://www.facebook.com/gautamgulati.official',
+      facebookProfileLink: 'https://www.facebook.com/iamgautamgulati',
       season: 8,
       year: 2015,
       about: 'TV actor, rejected on MTV Roadies 5.',
@@ -157,6 +157,9 @@ export class AppComponent {
     },
     {
       name: 'Prince Narula',
+      photo: '/assets/s9.jpg',
+      InstagramProfileLink: 'https://www.instagram.com/princenarula/',
+      facebookProfileLink: 'https://www.facebook.com/PrinceNarula/',
       season: 9,
       year: 2016,
       about: 'Model, actor, and singer. Won MTV Roadies 12 and MTV Splitsvilla 8 in 2015.',
@@ -172,9 +175,12 @@ export class AppComponent {
     },
     {
       name: 'Manveer Gurjar',
+      photo: '/assets/s10.jpg',
+      InstagramProfileLink : 'https://www.instagram.com/imanveergurjar/?hl=en',
+      facebookProfileLink: 'https://www.facebook.com/ManveerGurjarOfficial/',
       season: 10,
       year: 2017,
-      about: 'Took over family farming business, joined a political party.',
+      about: 'Took over family farming business, joined a political party.', 
       prize: '₹50 lakh',
       host: 'Salman Khan',
       runnerUp: 'Bani J',
@@ -187,6 +193,9 @@ export class AppComponent {
     },
     {
       name: 'Shilpa Shinde',
+      photo: '/assets/s11.jpg',
+      InstagramProfileLink : 'https://www.instagram.com/shilpa_shinde_official/',
+      facebookProfileLink: 'https://www.facebook.com/ShilpaShindeOfficial/',
       season: 11,
       year: 2018,
       about: 'Known for playing Angoori Manmohan Tiwari in Bhabhi Ji Ghar Par Hai!',
@@ -202,6 +211,9 @@ export class AppComponent {
     },
     {
       name: 'Dipika Kakar',
+      photo: '/assets/s12.jpg',
+      InstagramProfileLink : 'https://www.instagram.com/ms.dipika/',
+      facebookProfileLink: 'https://www.facebook.com/DipikaKakarOfficial/',
       season: 12,
       year: 2018,
       about: 'Known for roles in Sasural Simar Ka and Kahaan Hum Kahaan Tum.',
@@ -217,6 +229,9 @@ export class AppComponent {
     },
     {
       name: 'Sidharth Shukla',
+      photo: '/assets/s13.jpg',
+      InstagramProfileLink : 'https://www.instagram.com/realsidharthshukla/',
+      facebookProfileLink: 'https://www.facebook.com/SidharthShukla/',
       season: 13,
       year: 2020,
       about: 'Best known for his role in Balika Vadhu.',
@@ -232,6 +247,9 @@ export class AppComponent {
     },
     {
       name: 'Rubina Dilaik',
+      photo: '/assets/s14.jpg',
+      InstagramProfileLink : 'https://www.instagram.com/rubinadilaik/',
+       facebookProfileLink: 'https://www.facebook.com/RubinaDilaikOfficial/',
       season: 14,
       year: 2021,
       about: 'Known for roles in Chotti Bahu and Shakti - Astitva Ke Ehsaas Ki.',
@@ -247,6 +265,9 @@ export class AppComponent {
     },
     {
       name: 'Tejasswi Prakash',
+      photo: '/assets/s15.jpg',
+      InstagramProfileLink : 'https://www.instagram.com/tejasswiprakash/',
+      facebookProfileLink: 'https://www.facebook.com/TejasswiPrakashOfficial/',
       season: 15,
       year: 2022,
       about: 'Hindi television and Marathi films actor, known for her role in Naagin 6.',
@@ -262,6 +283,9 @@ export class AppComponent {
     },
     {
       name: 'MC Stan',
+      photo: '/assets/s16.jpg',
+      InstagramProfileLink : 'https://www.instagram.com/m___c___stan/',
+      facebookProfileLink: 'https://www.facebook.com/MCStanOfficial/',
       season: 16,
       year: 2023,
       about: 'Indian rapper and music producer.',
@@ -276,6 +300,8 @@ export class AppComponent {
       details: 'MC Stan, an Indian rapper and music producer, won the 16th season of Bigg Boss. The prize money and runner-up details for this season were not specified in the provided information.'
     }
   ];
+
+
 
 
   
