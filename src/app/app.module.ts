@@ -7,9 +7,11 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { ButtonsAndIconsComponent } from './common/buttons-and-icons/buttons-and-icons.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ButtonsAndIconsComponent
   ],
   imports: [
     BrowserModule,
