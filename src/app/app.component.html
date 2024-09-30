@@ -18,7 +18,33 @@
   </div>
 </div>  
 
+<div class="profile-container">
+  <div class="profile-grid">
+    <div *ngFor="let profile of profiles" class="profile-card">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>{{ profile.name }}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="profile.photo" alt="{{ profile.name }}">
+        <div>{{profile.about }}</div>
+        <mat-card-content *ngIf="controversyDetails[profile.name]">
+          <ul>
+            <li *ngFor="let detail of controversyDetails[profile.name]">
+              {{ detail }}
+            </li>
+          </ul>
+        </mat-card-content>
+        <mat-card-actions>
+          <a mat-flat-button [href]="profile.InstagramProfileLink" target="_blank" class="small-button">Instagram<i class="fa-brands fa-facebook"></i></a>
+          <a mat-flat-button [href]="profile.facebookProfileLink" target="_blank" class="small-button">Facebook</a>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>
 
-<p>buttons</p>
-<app-buttons-and-icons></app-buttons-and-icons> 
+
+
+<!-- <p>buttons</p> -->
+<!-- <app-buttons-and-icons></app-buttons-and-icons>  -->
  

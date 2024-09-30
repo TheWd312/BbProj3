@@ -21,8 +21,8 @@
   }
   
   mat-card:hover {
-    background-color: #f5f5f5; // Light gray color on hover
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); // Stronger shadow on hover
+    background-color: #4eb8c9; // Light gray color on hover
+    box-shadow: 0 4px 8px rgba(72, 129, 167, 0.2); // Stronger shadow on hover
     transform: translateY(-2px); // Slight lift effect
   }
   
@@ -33,3 +33,6 @@
   ::ng-deep .mdc-button{
     margin-right: 5px;
   }
+::ng-deep .mat-flat-button {
+  margin-bottom: 0%;
+}
