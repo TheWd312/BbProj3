@@ -41,3 +41,29 @@ mat-card img {
   height: 200px;
   object-fit: cover;
 }
+// ---header
+.container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.section1 {
+  background-color: lightblue;
+  cursor: pointer;
+}
+.section2 {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.section3 {
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
